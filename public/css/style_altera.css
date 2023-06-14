@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #2F4673;
+    height: 8vh;
+}
+
+nav .logo{
+    font-size: 1.5em;
+}
+
+main{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    display: flex;
+    height: 92vh;
+    overflow-y: auto;
+    background-color: #a1b1c1;
+    color: #010101;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+main #titulo{
+    font-weight: 700;
+    font-size: 1.7em;
+    color: #010101;
+}
+
+.gerenciador{
+    background-color: #829EC6;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.gerenciador div{
+    margin: 30px;
+}
+
+#txt_pesquisa{
+    float:left;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:226px;
+    background-color:#BACDD9;
+    color: #000;
+}
+
+#txt_pesquisa::placeholder{
+    font-size: 18px;
+    color: #2F4673;
+}
+
+#txt_pesquisa:focus{
+    background-color:#DAEDF9;
+    outline: none;
+}
+
+#btn_pesquisa{
+    border:solid 5px #728EA6;
+    background-color: #728EA6;
+    height:32px;
+}
+
+#btn_pesquisa:hover{
+    border:solid 5px #758FB6;
+    background-color: #758FB6;
+}
+
+form{
+    margin: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+form .input{
+    text-align: center;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:226px;
+    background-color:#CADDE9;
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form .input:focus{
+    background-color:#FAEDE9;
+    outline: none;
+}
+
+form .btn{
+    border:solid 5px #2F4673;
+    background-color: #2F4673;
+    height:32px;
+    margin: 3px;
+    color: #fff;
+}
+
+form .btn:hover{
+    border-color: #2F46A3;
+    background-color: #2F46A3;
+}
+
+.img{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+}
