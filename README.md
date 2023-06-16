@@ -1,4 +1,4 @@
-# Livraria-PHP
+# Bookstore-PHP
 My first project combining MySQL, PHP and CSS (done in 2022)
 
 A book registration and listing program.
